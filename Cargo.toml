@@ -1,0 +1,8 @@
+[package]
+name = "mituploader_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pause_console = "0.2.0"
+reqwest = { version = "0.12.12", features = ["blocking", "multipart", "cookies"] }
